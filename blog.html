@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" consent="with=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="stronastyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+ <section class="sub-header">
+    <nav>
+        <a href="strona.html"><img src="C:\Users\HP\OneDrive\Pulpit\strona\logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <ion-icon name="close-outline" onclick="hideMenu()"></ion-icon>
+             <ul>  
+                <li><a href="strona.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <ion-icon name="menu-outline" onclick="showMenu()"></ion-icon>
+    </nav>
+    <h1>Our Certificate & Online Programs for 2023</h1>
+</section>
+<!----blog-->
+<section class="blog-centent">
+    <div class="row">
+        <div class="blog-left">
+            <img src="certificate2.jpeg">
+            <h2>Our Certificate & Online Programs for 2023</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, consequatur adipisci inventore nam delectus totam, ab, magnam odio porro iste aperiam nulla accusamus repellendus sequi. Quae facere nisi consequuntur doloribus?</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quisquam dicta inventore nulla minus officiis impedit, perferendis, numquam porro eligendi quaerat explicabo maxime? Blanditiis impedit perferendis doloremque officiis eos mollitia.</p>
+            <br>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae totam doloribus itaque sequi, numquam voluptates, autem ea explicabo possimus, quas veniam temporibus corporis mollitia. Nam error magnam voluptatibus sint molestiae?</p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="text" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn black-btn">POST COMMENT</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>XXXXXXXXXX</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>YYYYYYYYYY</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>ZZZZZZZZZZ</span>
+                <span>20</span>
+            </div>
+            <div>
+                <span>QQQQQQQQQQQQ</span>
+                <span>16</span>
+            </div>
+            <div>
+                <span>FFFFFFFFFF</span>
+                <span>10</span>
+            </div>
+        </div>
+    
+    </div>
+
+</section>
+
+
+
+<!---Footer--->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="icons"> 
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-twitter"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-linkedin"></ion-icon>
+    </div>
+    <p>Made by <ion-icon name="heart"></ion-icon> Katarzyna Bieńko</p>
+</section>
+
+
+
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
